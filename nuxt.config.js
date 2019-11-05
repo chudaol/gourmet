@@ -23,7 +23,9 @@ export default {
   ** Global CSS
   */
   css: [
-    'assets/scss/landing-page.scss'
+    '@/assets/scss/landing-page.scss',
+    '@/assets/vendor/fontawesome-free/css/all.min.css',
+    '@/assets/vendor/simple-line-icons/css/simple-line-icons.css'
   ],
   /*
   ** Plugins to load before mounting the App
